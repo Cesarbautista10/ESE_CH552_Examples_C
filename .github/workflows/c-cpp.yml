@@ -1,4 +1,5 @@
-name: Build and Test
+name: C/C++ CI
+
 
 on:
   push:
@@ -21,4 +22,3 @@ jobs:
 
 
 
-    # Puedes agregar pasos adicionales según sea necesario, como pruebas unitarias, etc.
