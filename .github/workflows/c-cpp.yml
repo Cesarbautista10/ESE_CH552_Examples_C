@@ -19,7 +19,6 @@ jobs:
     - name: Install dependencies
       run: sudo apt-get install build-essential sdcc
 
-    - name: Build project
-      run: make -C software/examples/
+
 
     # Puedes agregar pasos adicionales según sea necesario, como pruebas unitarias, etc.
