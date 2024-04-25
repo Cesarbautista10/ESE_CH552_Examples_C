@@ -21,7 +21,8 @@ jobs:
 
     - name: Build
       run: |
-        sdcc -c -mz80 --std-c99 --opt-code-size --fsigned-char --model-small --nogcse --noinvariant --noinduction --nojtbound --noloopreverse --nolabelopt --no-peep --no-reg-params --no-peep-return --nooverlay
+        pwd
+        ls -la
 
 
     
