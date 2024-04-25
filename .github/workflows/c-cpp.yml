@@ -23,6 +23,8 @@ jobs:
       run: |
         pwd
         ls -la
+        cd Software/examples/blink && make all
+        
 
 
     
