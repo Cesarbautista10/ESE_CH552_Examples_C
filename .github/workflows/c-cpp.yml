@@ -6,7 +6,6 @@ on:
   pull_request:
     branches: [ "main" ]
 
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -16,15 +15,11 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Install dependencies
-      run: |
-        sudo apt-get install build-essential sdcc 
+      run: sudo apt-get install build-essential sdcc 
 
     - name: Build
-      run: |
-        pwd
-        ls -la
-        cd /home/runner/work/ESE_CH552_Examples_C/ESE_CH552_Examples_C/Software/examples/blink && make all
-        
+      working-directory: /home/runner/work/ESE_CH552_Examples_C/ESE_CH552_Examples_C/Software/examples/blink
+      run: make all
 
 
     
