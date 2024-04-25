@@ -18,11 +18,5 @@ jobs:
       run: sudo apt-get install build-essential sdcc 
 
     - name: Build
-      working-directory: /home/runner/work/ESE_CH552_Examples_C/ESE_CH552_Examples_C/Software/examples/blink
+      working-directory: Software/examples/blink
       run: make all
-
-
-    
-
-
-
