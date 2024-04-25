@@ -17,6 +17,11 @@ jobs:
     - name: Install dependencies
       run: sudo apt-get install build-essential sdcc 
 
-    - name: Build
+    - name: Blink example
       working-directory: Software/examples/Blink
       run: make all
+    
+    - name: ADC example
+      working-directory: Software/examples/ADC
+      run: make all
+      
