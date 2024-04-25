@@ -23,7 +23,7 @@ jobs:
       run: |
         pwd
         ls -la
-        cd Software/examples/blink && make all
+        cd /home/runner/work/ESE_CH552_Examples_C/ESE_CH552_Examples_C/Software/examples/blink && make all
         
 
 
