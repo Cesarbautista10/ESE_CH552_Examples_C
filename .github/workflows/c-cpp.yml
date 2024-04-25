@@ -20,20 +20,10 @@ jobs:
         sudo apt-get install build-essential sdcc 
         sudo apt-get install gcc-avr binutils-avr avr-libc
         sudo apt-get install gcc-arm-none-eabi binutils-arm-none-eabi libnewlib-arm-none-eabi
-        sudo apt-get install gcc-aarch64-linux-gnu binutils-aarch64-linux-gnu
-        sudo apt-get install gcc-mips-linux-gnu binutils-mips-linux-gnu
-        sudo apt-get install gcc-mipsel-linux-gnu binutils-mipsel-linux-gnu
-        sudo apt-get install gcc-powerpc-linux-gnu binutils-powerpc-linux-gnu
-        sudo apt-get install gcc-powerpc64-linux-gnu binutils-powerpc64-linux-gnu
-        sudo apt-get install gcc-sparc-linux-gnu binutils-sparc-linux-gnu
-        sudo apt-get install gcc-sparc64-linux-gnu binutils-sparc64-linux-gnu
-        sudo apt-get install gcc-riscv64-linux-gnu binutils-riscv64-linux-gnu
-        sudo apt-get install gcc-riscv64-unknown-elf binutils-riscv64-unknown-elf
-        sudo apt-get install gcc-riscv32-linux-gnu binutils-riscv32-linux-gnu
-        
+
+
 
     
-    - name: Build
-      run: gcc
+
 
 
