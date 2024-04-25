@@ -18,9 +18,10 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt-get install build-essential sdcc 
-        sudo apt-get install gcc-avr binutils-avr avr-libc
-        sudo apt-get install gcc-arm-none-eabi binutils-arm-none-eabi libnewlib-arm-none-eabi
 
+    - name: Build
+      run: |
+        sdcc -c -mz80 --std-c99 --opt-code-size --fsigned-char --model-small --nogcse --noinvariant --noinduction --nojtbound --noloopreverse --nolabelopt --no-peep --no-reg-params --no-peep-return --nooverlay
 
 
     
