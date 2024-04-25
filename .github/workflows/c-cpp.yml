@@ -1,13 +1,11 @@
 name: C/C++ CI
 
-
 on:
   push:
-    paths:
-      - 'Software/examples/**' # Ejecutar cuando se hacen cambios en la carpeta de ejemplos
+    branches: [ "main" ]
   pull_request:
-    paths:
-      - 'Software/examples/**' # Ejecutar cuando se hacen cambios en la carpeta de ejemplos
+    branches: [ "main" ]
+
 
 jobs:
   build:
