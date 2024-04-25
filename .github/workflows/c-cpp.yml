@@ -17,6 +17,8 @@ jobs:
 
     - name: Install dependencies
       run: sudo apt-get install build-essential sdcc
-
+    
+    - name: Build
+      run: gcc
 
 
