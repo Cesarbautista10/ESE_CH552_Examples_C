@@ -25,7 +25,7 @@ volatile uint16_t counter;
 
 void ext0_interrupt(void) __interrupt(INT_NO_INT0)
 {
-    PIN_toggle(PIN_LED)  
+    PIN_toggle(PIN_LED);  
 }
 
 int main(void)
