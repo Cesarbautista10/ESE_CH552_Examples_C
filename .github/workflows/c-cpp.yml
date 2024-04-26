@@ -36,3 +36,10 @@ jobs:
     - name: WS2812 example
       working-directory: Software/examples/WS2812
       run: make all
+
+    - name: TIMER example
+      working-directory: Software/examples/TIMER_0
+      run: make all
+    - name: TIMER_INT example
+      working-directory: Software/examples/TIMER_INT
+      run: make all
