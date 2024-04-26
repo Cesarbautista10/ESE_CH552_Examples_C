@@ -26,9 +26,6 @@
 // NeoPixel Functions
 // ===================================================================================
 
-// Pin definitions
-#define PIN_NEO             P33       // pin connected to NeoPixel
-// 
 
 
 
