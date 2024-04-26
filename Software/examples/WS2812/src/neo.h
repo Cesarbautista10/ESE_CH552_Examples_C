@@ -17,8 +17,8 @@
 #include <stdint.h>
 #include "gpio.h"
 #include "delay.h"
-// NeoPixel configuration
-#define NEO_GRB                         // type of pixel: NEO_GRB or NEO_RGB
+#include "config.h"
+
 #define NEO_init()  PIN_low(PIN_NEO);PIN_output(PIN_NEO)  // init NeoPixels
 #define NEO_latch() DLY_us(281)                           // latch colors
 
