@@ -29,3 +29,6 @@ jobs:
       working-directory: Software/examples/I2C/SSD1306
       run: make all
 
+    - name: PWM example
+      working-directory: Software/examples/PWM
+      run: make all
