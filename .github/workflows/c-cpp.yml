@@ -18,10 +18,14 @@ jobs:
       run: sudo apt-get install build-essential sdcc 
 
     - name: Blink example
-      working-directory: Software/examples/Blink
+      working-directory: Software/examples/Blink  
       run: make all
     
     - name: ADC example
       working-directory: Software/examples/ADC
       run: make all
-      
+
+    - name: I2C example
+      working-directory: Software/examples/I2C/SD1306
+      run: make all
+
