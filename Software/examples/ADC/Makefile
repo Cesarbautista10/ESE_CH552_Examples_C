@@ -11,7 +11,7 @@ TARGET     = $(basename $(SKETCH))
 INCLUDE    = src
 
 # Microcontroller Settings
-FREQ_SYS   = 24000000
+FREQ_SYS   = 16000000
 XRAM_LOC   = 0x0100
 XRAM_SIZE  = 0x0300
 CODE_SIZE  = 0x3800
@@ -20,7 +20,9 @@ CODE_SIZE  = 0x3800
 CC         = sdcc
 OBJCOPY    = objcopy
 PACK_HEX   = packihx
-WCHISP    ?= python3 tools/chprog.py
+
+# if linux use python3, if windows use python
+WCHISP    ?= python prog/uploader.py
 
 # Compiler Flags
 CFLAGS  = -mmcs51 --model-small --no-xinit-opt
