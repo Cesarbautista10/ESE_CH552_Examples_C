@@ -13,9 +13,7 @@ The examples cover various functionalities including Blink, ADC, PWM, Timer, Int
 [codecov-image]: https://codecov.io/github/mkdocs/mkdocs/coverage.svg?branch=master
 [codecov-link]: https://codecov.io/github/mkdocs/mkdocs?branch=master
 
-## License
 
-[BSD-2-Clause](https://github.com/mkdocs/mkdocs/blob/master/LICENSE)
 
 ## Acknowledgements and Credits
 
