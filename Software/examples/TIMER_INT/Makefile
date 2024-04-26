@@ -6,8 +6,8 @@
 # Type "make help" in the command line.
 # ===================================================================================
 # File Names
-SKETCH     = CH552-TIMER0.c
-TARGET     = CH552-TIMER0
+SKETCH     = main.c
+TARGET     = $(basename $(SKETCH))
 INCLUDE    = src
 
 # Microcontroller Settings
