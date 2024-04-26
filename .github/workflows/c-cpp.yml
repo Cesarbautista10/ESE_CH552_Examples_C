@@ -26,6 +26,6 @@ jobs:
       run: make all
 
     - name: I2C example
-      working-directory: Software/examples/I2C/SD1306
+      working-directory: Software/examples/I2C/SSD1306
       run: make all
 
