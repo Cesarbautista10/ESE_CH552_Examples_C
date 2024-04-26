@@ -16,7 +16,7 @@
 
 // Libraries
 
-
+#include "src/config.h"  // pin configurations
 #include "src/system.h"   // system functions
 #include "src/delay.h"    // delay functions
 #include "src/neo.h"      // NeoPixel functions
