@@ -1,16 +1,50 @@
+
 # CH552 Examples in C
 
 [![Version 1.1](https://img.shields.io/badge/Version-1.1-blueviolet?style=flat-square)](https://example.com/download/ch552-examples-v1.1)
 
-This repository provides examples for developing software in C using the SDCC compiler for the CH552 microcontroller. It serves as an excellent resource for beginners and experienced developers alike, offering versatile and affordable solutions for CH552 development.
+This repository contains **basic community examples** for developing software in **C for the CH552** microcontroller using the **SDCC compiler**. While useful for beginners and quick prototyping, this set is not officially maintained by UNIT Electronics.
 
-The CH552 microcontroller features an enhanced E8051 core MCU compatible with the MCS51 instruction set. With 79% of its instructions being single-byte single-cycle instructions, and an average instruction speed of 8 ~ 15 times faster than that of the standard MCS51, it is well-suited for low-cost projects.
+## ⚠️ About This Version
 
-The examples cover various functionalities including Blink, ADC, PWM, Timer, Interrupts, and bit-banging for I2C communication and controlling WS2812 LEDs.
+This version provides simple examples for:
 
-**Note:** The examples are regularly updated to enhance project development.
+- LED Blink  
+- ADC  
+- PWM  
+- Timer  
+- External Interrupts  
+- Bit-banging I2C  
+- WS2812 LED control  
 
-## Acknowledgements and Credits
+It is suitable for educational and experimentation purposes but does **not reflect the latest development standards or structure**.
 
-- [![Unit Electronics](https://img.shields.io/badge/Unit_Electronics-Website-blue?style=flat-square&logo=google-chrome)](https://uelectronics.com/)
-- [![Stefan Wagner](https://img.shields.io/badge/Stefan_Wagner-GitHub-black?style=flat-square&logo=github)](https://github.com/wagiminator) 
+
+
+## 🚀 For Advanced Development
+
+The official and advanced development — including new libraries, modular drivers, SDK structure, and ongoing updates — is maintained by **[UNIT Electronics](https://uelectronics.com)**. Our organization focuses on **next-generation embedded tools** for the CH55x family and other USB-centric microcontrollers.
+
+Explore the official ecosystem:
+
+- 🔧 Main repository for SDCC-based development:  
+  👉 [UNIT-Electronics/CH55x_SDCC_Examples](https://github.com/UNIT-Electronics/CH55x_SDCC_Examples)
+
+- 🧠 Advanced tools, firmware, and board support:  
+  👉 [UNIT-Electronics-MX GitHub Organization](https://github.com/UNIT-Electronics-MX)
+
+---
+
+## 🧑‍💻 Designed by UNIT Electronics
+
+[![Unit Electronics](https://img.shields.io/badge/UNIT_Electronics-Official-blue?style=flat-square&logo=google-chrome)](https://uelectronics.com)
+
+UNIT Electronics is the original designer and maintainer of **open, advanced CH552 technology**, offering scalable solutions for prototyping, education, and industry.
+
+We support:
+
+- USB firmware development  
+- Embedded drivers and SDKs  
+- CH552 board design and documentation  
+- Integration into commercial and educational platforms  
+
